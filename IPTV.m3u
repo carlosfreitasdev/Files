@@ -1,112 +1,69 @@
 #EXTM3U
-
-#EXTINF:-1 tvg-id="RTP1.pt" ,RTP 1
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RTP2.pt" ,RTP 2
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="SIC.pt" ,SIC
-#EXTVLCOPT:http-user-agent=Firefox
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
-
-#EXTINF:-1 tvg-id="TVI.pt" ,TVI
-#EXTVLCOPT:http-user-agent=Firefox
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMS8yMDI0IDM6MDo0NiBQTSZoYXNoX3ZhbHVlPUhIN3RmTXZMU1JWTmtYOUlXQUpDeUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD01ZWNlZTcyNy1iNzNlLTQ5OTQtODg3Zi01YTQzYWY0OTdjZmM=/
-
-#EXTINF:-1 tvg-id="RTP3.pt" ,RTP 3
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR=
-
-#EXTINF:-1 tvg-id="CNNPortugal.pt" ,CNN Portugal
-#EXTVLCOPT:http-user-agent=Firefox
-https://sktv-forwarders.7m.pl/get.php?x=CNN_Portugal
-
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp" ,NHK WORLD
-#EXTVLCOPT:http-user-agent=Firefox
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NHK-World.png" group-title="Undefined",NHK WORLD
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
-
-#EXTINF:-1 tvg-id="JOAYDTV.jp" ,ABC
+#EXTINF:-1 tvg-id="JOAYDTV.jp" tvg-logo="https://i.imgur.com/I11J99B.png" group-title="Undefined",ABC (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
-
-#EXTINF:-1 tvg-id="Animax.jp" ,Animax
+#EXTINF:-1 tvg-id="Animax.jp" tvg-logo="https://ri.zzls.xyz/bYX8NqT.png" group-title="Animation",Animax (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs15
-
-#EXTINF:-1 tvg-id="ATX.jp" ,AT-X
+#EXTINF:-1 tvg-id="ATX.jp" tvg-logo="https://i.imgur.com/turWday.png" group-title="Animation",AT-X (720p)
 https://neetball.net/live/neet3.m3u8
-
-#EXTINF:-1 tvg-id="BSAsahi.jp" ,BS Asahi
+#EXTINF:-1 tvg-id="BBCNewsAsiaPacific.uk" tvg-logo="https://i.imgur.com/REuN9RR.png" group-title="News",BBC News Asia Pacific (720p)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
+#EXTINF:-1 tvg-id="BloombergTVAsia.hk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business",Bloomberg TV Asia (720p)
+https://bloomberg.com/media-manifest/streams/asia.m3u8
+#EXTINF:-1 tvg-id="BloombergTVAsiaLiveEvent.hk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business",Bloomberg TV Asia Live Event (720p)
+https://bloomberg.com/media-manifest/streams/asia-event.m3u8
+#EXTINF:-1 tvg-id="BSAsahi.jp" tvg-logo="https://i.imgur.com/huXFL3A.png" group-title="General",BS Asahi (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03
-
-#EXTINF:-1 tvg-id="BSFuji.jp" ,BS Fuji TV (544p)
+#EXTINF:-1 tvg-id="BSFuji.jp" tvg-logo="https://i.imgur.com/aDdwjjc.png" group-title="General",BS Fuji TV (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06
-
-#EXTINF:-1 tvg-id="BSNipponTV.jp" ,BS Nippon TV (544p)
+#EXTINF:-1 tvg-id="BSNipponTV.jp" tvg-logo="https://i.imgur.com/D8lhZCI.png" group-title="General",BS Nippon TV (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02
-
-#EXTINF:-1 tvg-id="BSTBS.jp" ,BS TBS (544p)
+#EXTINF:-1 tvg-id="BSTBS.jp" tvg-logo="https://i.imgur.com/h20eGKq.png" group-title="General",BS TBS (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04
-
-#EXTINF:-1 tvg-id="BSTVTokyo.jp" ,BS TV Tokyo (544p)
+#EXTINF:-1 tvg-id="BSTVTokyo.jp" tvg-logo="https://i.imgur.com/yJfA6ak.png" group-title="General",BS TV Tokyo (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05
-
-#EXTINF:-1 tvg-id="CartoonNetwork.jp" ,Cartoon Network Japan (400p)
+#EXTINF:-1 tvg-id="CartoonNetwork.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="Animation;Kids",Cartoon Network Japan (400p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs25
-
-#EXTINF:-1 tvg-id="CGNTVJapan.jp" ,CGNTV Japan (1080p)
+#EXTINF:-1 tvg-id="CGNTVJapan.jp" tvg-logo="https://i.imgur.com/5LNZeVq.png" group-title="Religious",CGNTV Japan (1080p)
 https://cgntvliveweb-944.acs.wecandeo.com/ms/2850/944/index.m3u8
-
-#EXTINF:-1 tvg-id="ChannelGinga.jp" ,Channel Ginga (1080p)
+#EXTINF:-1 tvg-id="ChannelGinga.jp" tvg-logo="https://i.imgur.com/zfvyspc.png" group-title="General",Channel Ginga (1080p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29
-
-#EXTINF:-1 tvg-id="DisneyChannel.jp" ,Disney Channel Japan (544p)
+#EXTINF:-1 tvg-id="CNNj.jp" tvg-logo="https://i.imgur.com/Ft6wEdO.png" group-title="News",CNNj (544p)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16
+#EXTINF:-1 tvg-id="DisneyChannel.jp" tvg-logo="https://i.imgur.com/VSq7b5E.jpg" group-title="Kids",Disney Channel Japan (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24
-
-#EXTINF:-1 tvg-id="DisneyJunior.jp" ,Disney Junior (544p)
+#EXTINF:-1 tvg-id="DisneyJunior.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="Kids",Disney Junior (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs23
-
-#EXTINF:-1 tvg-id="EiseiGekijo.jp" ,Eisei Gekijo (544p)
+#EXTINF:-1 tvg-id="EiseiGekijo.jp" tvg-logo="https://i.imgur.com/0ALvy3B.png" group-title="Movies",Eisei Gekijo (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22
-
-#EXTINF:-1 tvg-id="FamilyGekijyo.jp" ,Family Gekijo (544p)
+#EXTINF:-1 tvg-id="FamilyGekijyo.jp" tvg-logo="https://i.imgur.com/Azdf7m6.png" group-title="Family",Family Gekijo (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20
-
-#EXTINF:-1 tvg-id="FishingVision.jp" ,Fishing Vision (544p)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25
-
-#EXTINF:-1 tvg-id="JOCXDTV.jp" ,Fuji TV (544p)
+#EXTINF:-1 tvg-id="JOCXDTV.jp" tvg-logo="https://i.imgur.com/sEWDmMD.png" group-title="Undefined",Fuji TV (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05
-
-#EXTINF:-1 tvg-id="FujiTVNEXT.jp" ,Fuji TV NEXT (544p)
+#EXTINF:-1 tvg-id="FujiTVNEXT.jp" tvg-logo="https://i.imgur.com/j95aeSA.png" group-title="Entertainment",Fuji TV NEXT (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26
-
-#EXTINF:-1 tvg-id="GAORASPORTS.jp" ,Gaora Sports (544p)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Gaki no Tsukai (English Subs) (720p)
+https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
+#EXTINF:-1 tvg-id="GAORASPORTS.jp" tvg-logo="https://i.imgur.com/UgKRfuw.png" group-title="Sports",Gaora Sports (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17
-
-#EXTINF:-1 ,Home Drama Channel (544p)
+#EXTINF:-1 tvg-id="HomeDramaChannel.jp" tvg-logo="https://i.imgur.com/iNkKh7w.png" group-title="Series",Home Drama Channel (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05
-
-#EXTINF:-1 tvg-id="JSPORTS1.jp" ,J Sports 1 (544p)
+#EXTINF:-1 tvg-id="JSPORTS1.jp" tvg-logo="https://i.imgur.com/vEpjLnj.png" group-title="Sports",J Sports 1 (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18
-
-#EXTINF:-1 tvg-id="JSPORTS2.jp" ,J Sports 2 (544p)
+#EXTINF:-1 tvg-id="JSPORTS2.jp" tvg-logo="https://i.imgur.com/g1GLVH2.png" group-title="Sports",J Sports 2 (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19
-
-#EXTINF:-1 tvg-id="JSPORTS3.jp" ,J Sports 3 (544p)
+#EXTINF:-1 tvg-id="JSPORTS3.jp" tvg-logo="https://i.imgur.com/xdI361E.png" group-title="Sports",J Sports 3 (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21
-
-#EXTINF:-1 tvg-id="JSPORTS4.jp" ,J Sports 4 (544p)
+#EXTINF:-1 tvg-id="JSPORTS4.jp" tvg-logo="https://i.imgur.com/fBcyZNL.png" group-title="Sports",J Sports 4 (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22
-
-#EXTINF:-1 tvg-id="JidaigekiSenmonChannel.jp" ,Jidaigeki Senmon (544p)
+#EXTINF:-1 tvg-id="JidaigekiSenmonChannel.jp" tvg-logo="https://i.imgur.com/lcwDgKU.png" group-title="Undefined",Jidaigeki Senmon (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04
-
-#EXTINF:-1 tvg-id="JODXDTV.jp" ,Kansai TV (544p)
+#EXTINF:-1 tvg-id="JODXDTV.jp" tvg-logo="https://i.imgur.com/WMNg5De.png" group-title="Undefined",Kansai TV (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
-
-#EXTINF:-1 tvg-id="KidsStation.jp",Kids Station (544p)
+#EXTINF:-1 tvg-id="KayoPops.jp" tvg-logo="https://i.imgur.com/7VcFGkx.png" group-title="Music",Kayo Pops (544p)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13
+#EXTINF:-1 tvg-id="KidsStation.jp" tvg-logo="https://i.imgur.com/pb94kIk.png" group-title="Kids",Kids Station (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07
 #EXTINF:-1 tvg-id="LaLaTV.jp" tvg-logo="https://i.imgur.com/APBty36.png" group-title="Undefined",LaLa TV (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs19
@@ -162,8 +119,6 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04
 #EXTINF:-1 tvg-id="ToeiChannel.jp" tvg-logo="https://i.imgur.com/MRSlSvm.png" group-title="Undefined",Toei Channel (1080p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27
-#EXTINF:-1 tvg-id="JOMXDTV.jp" tvg-logo="https://i.imgur.com/0i5rDRN.png" group-title="Undefined",Tokyo MX1 (544p)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08
 #EXTINF:-1 tvg-id="TokyoMX1.jp" tvg-logo="https://i.imgur.com/igia8OX.png" group-title="Undefined",Tokyo MX1 (720p)
 https://mcas-eqms-mx1-live.hls.davlive.stream.ne.jp/mt/master/340f27cd590451b1e7d0034b85b5175ddaf05454/EQMS_MX1/master.m3u8
 #EXTINF:-1 tvg-id="TokyoMX2.jp" tvg-logo="https://i.imgur.com/SwvuR00.png" group-title="Undefined",Tokyo MX2 (720p)
@@ -184,25 +139,16 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12
 #EXTINF:-1 tvg-id="JOIXDTV.jp" tvg-logo="https://i.imgur.com/ONbuWvo.png" group-title="Undefined",YTV (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
-
-
-
-
-
-
-
 #EXTINF:-1 tvg-id="JapaNews24.jp" tvg-logo="https://yt3.googleusercontent.com/ytc/AGIKgqOMUS0adc02h6Py293xPnF0r8QrwOQRLKuVkVFz0Q=s176-c-k-c0x00ffffff-no-rj" group-title="News",ANN JapaNews24 (720p) [Not 24/7]
 https://ythls.armelin.one/channel/UCGCZAYq5Xxojl_tSXcVJhiQ.m3u8
 #EXTINF:-1 tvg-id="JOAIDTV.jp" tvg-logo="https://i.imgur.com/TmfzUkU.png" group-title="Undefined",Aomori TV (1080p) [Not 24/7]
 https://ythls.armelin.one/channel/UCdNYphHZdRYjpys_gwofUNQ.m3u8
 #EXTINF:-1 tvg-id="AsahiShimbunDigital.jp" tvg-logo="https://i.imgur.com/DuGepQp.jpg" group-title="News",Asahi Shimbun Digital (1080p) [Not 24/7]
-https://ythls.armelin.one/channel/UCMKvT0YVLufHMdGLH89J1oA.m3u8
-#EXTINF:-1 tvg-id="PokemonKidsTVJapanese.jp" tvg-logo="https://i.imgur.com/SwheroL.jpg" group-title="Animation;Kids",Pokémon Kids TV Japanese (1080p) [Not 24/7]
-https://ythls.armelin.one/channel/UCH0JJtRn2syic5xxavMKQ4Q.m3u8
+https://ythls.armelin.one/channel/UCMKvT0YVLufHMdGLH89J1oA.m3u8z
+#EXTINF:-1 tvg-id="BSNYouTube.jp" tvg-logo="https://i.imgur.com/RWlrQEm.png" group-title="Undefined",BSN (Youtube) (1080p) [Not 24/7]
+https://ythls.armelin.one/channel/UCoAQNKxgfE32ai4mOXNXvug.m3u8
 #EXTINF:-1 tvg-id="ChukyoTVNews.jp" tvg-logo="https://i.imgur.com/fSNc0jP.png" group-title="News",Chukyo TV News (1080p) [Not 24/7]
 https://ythls.armelin.one/channel/UCxiRdfyH0FtFCRZTRfRsdsA.m3u8
-#EXTINF:-1 tvg-id="EWTNAsiaPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious",EWTN Asia-Pacific (720p) [Not 24/7]
-https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="HBCHokkaidoNews24.jp" tvg-logo="https://i.imgur.com/vcGsZVD.png" group-title="News",HBC Hokkaido News 24 (1080p) [Not 24/7]
 https://ythls.armelin.one/channel/UCCTpf5c_9HDo_OSu3aX8uFQ.m3u8
 #EXTINF:-1 tvg-id="HokkaidoNewsUHB.jp" tvg-logo="https://i.imgur.com/G8lAJYc.png" group-title="News",Hokkaido News UHB (1080p) [Not 24/7]
@@ -225,6 +171,8 @@ https://ythls.armelin.one/channel/UCWnOKASPkCBEL-_O8odMvtg.m3u8
 https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
 #EXTINF:-1 tvg-id="NiigataNewsNST.jp" tvg-logo="https://i.imgur.com/5dJE8Fc.jpg" group-title="News",Niigata News NST (1080p) [Not 24/7]
 https://ythls.armelin.one/channel/UC8iN-WKPu820ve-4t9NxHRw.m3u8
+#EXTINF:-1 tvg-id="PokemonKidsTVJapanese.jp" tvg-logo="https://i.imgur.com/SwheroL.jpg" group-title="Animation;Kids",Pokémon Kids TV Japanese (1080p) [Not 24/7]
+https://ythls.armelin.one/channel/UCH0JJtRn2syic5xxavMKQ4Q.m3u8
 #EXTINF:-1 tvg-id="RKBNEWS24.jp" tvg-logo="https://i.imgur.com/SHmYLML.jpg" group-title="News",RKB NEWS 24 (1080p) [Not 24/7]
 https://ythls.armelin.one/channel/UCgrmHAblzN-QzMMgl2oNRog.m3u8
 #EXTINF:-1 tvg-id="SATVNews24H.jp" tvg-logo="https://i.imgur.com/PxFcRh9.jpg" group-title="News",SATV News 24H (1080p) [Not 24/7]
@@ -237,8 +185,6 @@ https://ythls.armelin.one/channel/UCOZv-6MiXqJdLpmYtR431Ow.m3u8
 https://ythls.armelin.one/channel/UC6AG81pAkf6Lbi_1VC5NmPA.m3u8
 #EXTINF:-1 tvg-id="TOSNews.jp" tvg-logo="https://i.imgur.com/JBkXyvj.jpg" group-title="News",TOS News (1080p) [Not 24/7]
 https://ythls.armelin.one/channel/UChx_y6aLWNkifSDUt2TVAzg.m3u8
-#EXTINF:-1 tvg-id="TulipTVYouTube.jp" tvg-logo="https://i.imgur.com/zjEYDK9.png" group-title="Undefined",Tulip TV (Youtube) (720p) [Not 24/7]
-https://ythls.armelin.one/channel/UCk4bgav5X0rlbGefFnPcuoQ.m3u8
 #EXTINF:-1 tvg-id="TVShizuoka.jp" tvg-logo="https://i.imgur.com/HxBu6ce.png" group-title="News",TV Shizuoka (1080p) [Not 24/7]
 https://ythls.armelin.one/channel/UCFIlFvYMWkPE6uDcjdro1UA.m3u8
 #EXTINF:-1 tvg-id="JOWIDTV.jp" tvg-logo="https://i.imgur.com/9yZe76d.png" group-title="Undefined",TV-U Yamagata (Youtube) (1080p) [Not 24/7]
