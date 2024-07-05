@@ -9,7 +9,9 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Firefox
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yNi8yMDI0IDY6NjoxMyBQTSZoYXNoX3ZhbHVlPUVvbTlwZWh1a2NnSStLV2I4OS9IMmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1mN2YwMWY3NC0yNDdjLTQ5MzYtYWJjNy1hMjVhMTkyZWUzMzI=/
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny81LzIwMjQgODo1OjMyIFBNJmhhc2hfdmFsdWU9b3ZaaW1XS1lRVnNndVdsd2ZzM2tGQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTg0YmYzMDVkLWU5OWMtNGI0YS1hNmJmLTM5N2U2YTMxMmFiMg==/
 #EXTINF:-1 tvg-id="RTP3.pt" ,RTP 3
 #EXTVLCOPT:http-user-agent=Firefox
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR=
